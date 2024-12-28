@@ -1,0 +1,67 @@
+package main;
+
+public class Player {
+	private int damage,healthy,money;
+	private String name,cName;
+	private Inventory inv;
+	
+	Player(String name)
+	{
+		this.name=name;
+	}
+	
+	public void selectCharacter()
+	{
+		characterMenu();
+	}
+	public void characterMenu()
+	{
+		System.out.println("Lütfen bir karakter seçiniz : ");
+		System.out.println("Türü : Samuray , Hasar : 1 , Sağlık : 21 , Para : 15");
+		
+	}
+	public int getDamage()
+	{
+		return damage;
+	}
+	public void setDamage(int damage)
+	{
+		this.damage=damage;
+	}
+	
+	public int getHealthy()
+	{
+		return healthy;
+	}
+	public void setHealthy(int healthy)
+	{
+		this.healthy=healthy;
+	}
+	
+	public int getMoney()
+	{
+		return money;
+	}
+	public void setMoney(int money)
+	{
+		this.money=money;
+	}
+	
+	public String getName()
+	{
+		return name;
+	}
+	public void setName(String name)
+	{
+		this.name=name;
+	}
+	
+	public String getcName()
+	{
+		return cName;
+	}
+	public void setcName(String cName)
+	{
+		this.cName=cName;
+	}
+}

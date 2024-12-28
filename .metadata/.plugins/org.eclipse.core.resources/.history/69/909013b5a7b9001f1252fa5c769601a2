@@ -1,0 +1,20 @@
+import javax.swing.*;
+public class Main2 {
+
+	public static void main(String[] args) {
+		//JButton
+		//btn.setBounds(x,y,width,height)
+		
+		JFrame f=new JFrame("Buton Örneği");
+		JButton btn=new JButton("Gönder");
+		btn.setBounds(0,0,100,30);
+		
+		f.add(btn);
+		
+		f.setSize(400,400);
+		f.setLayout(null);
+		f.setVisible(true);
+
+	}
+
+}

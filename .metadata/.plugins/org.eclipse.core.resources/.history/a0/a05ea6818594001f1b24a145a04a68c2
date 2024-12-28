@@ -1,0 +1,17 @@
+package main;
+
+public abstract class BattleLocation extends Location{
+	
+	Obstacle obstacle;
+	public BattleLocation(Player player,String name,Obstacle obstacle)
+	{
+		super(player);
+		this.obstacle=obstacle;
+		this.name=name;
+	}
+	
+	public boolean getLocation()
+	{
+		return true;
+	}
+}

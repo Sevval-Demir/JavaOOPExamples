@@ -1,0 +1,14 @@
+import javax.swing.JFrame;
+public class Main {
+
+	public static void main(String[] args) {
+		//Graphical User Interface (GUI)
+		//Swing : Sun Microsystems tarafından piyasaya sürülen resmi Java GUI aracıdır
+		
+		JFrame frame=new JFrame();
+		frame.setSize(200,200);
+		frame.setVisible(true);
+
+	}
+
+}

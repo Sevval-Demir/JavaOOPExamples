@@ -1,0 +1,13 @@
+package Main;
+
+public class Araba {
+	String marka;
+	String model;
+	int yil;
+
+	public void arabaBilgisi()
+	{
+		System.out.println("Araba Markası: "+marka+", Model: "+model+", Yıl: "+yil);
+		
+	}
+}
